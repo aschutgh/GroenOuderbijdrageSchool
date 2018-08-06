@@ -26,7 +26,7 @@ namespace GroenOuderbijdrageSchool
         }
         public override string ToString()
         {
-            return Gebdat + " " + Peildat + " " + "Jonger dan tien? " + Jongertien;
+            return "Geboren: " + Gebdat + " Peildatum: " + Peildat + " " + "Jonger dan tien? " + Jongertien;
         }
     }
 
